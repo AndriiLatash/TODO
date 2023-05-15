@@ -1,0 +1,42 @@
+html {
+    font-size: 14px;
+}
+
+@media (min-width: 768px) {
+    html {
+        font-size: 16px;
+    }
+}
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    color: gold;
+    margin: 0;
+    background-color: #1d3865;
+    font-family: Arial,serif;
+}
+
+header {
+    background-color: #45224ced;
+}
+
+.table th, .table td {
+    color: white;
+}
+
+.table th {
+    font-weight: bold;
+}
+
+.text-success {
+    color: green;
+}
+
+.text-danger {
+    color: red;
+}
